@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Mời Dự Tiệc Sinh Nhật</title>
+    <!-- Import Font chữ & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Thẻ phát nhạc (Ẩn giao diện mặc định) -->
+    <audio id="bg-music" loop>
+        <!-- Điền link file MP3 của bạn hoặc dùng nhạc Happy Birthday Piano không lời bên dưới -->
+        <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a815a3.mp3?filename=happy-birthday-piano-10708.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ phát âm thanh.
+    </audio>
+
+    <!-- Nút Bật/Tắt Nhạc Nổi ở Góc Trái -->
+    <button id="music-btn" class="music-control" title="Bật/Tắt Nhạc">
+        <i id="music-icon" class="fas fa-music"></i>
+    </button>
+
+    <div class="card-container">
+        <!-- Khung viền sang trọng -->
+        <div class="border-decor"></div>
+        
+          <header>
+            <p class="sub-title">THÂN MỜI TT ĐẾN DỰ TIỆC SINH NHẬT CỦA SENIOR MANAGER</p>
+            <h1 class="name">Dương Nhựt Hùng</h1>
+        </header>
+
+        <section class="details">
+            <p class="tagline">Hân hạnh đón tiếp TT đến tham dự buổi tiệc thân mật cùng đội nhóm TD</p>
+            
+            <div class="info-box">
+                <div class="info-item">
+                    <span class="label">THỜI GIAN</span>
+                    <p class="value">18:30 — Thứ Bảy</p>
+                    <p class="value-sub">Ngày 24 tháng 10 năm 2026</p>
+                </div>
+                
+                <div class="divider"></div>
+
+                <div class="info-item">
+                    <span class="label">ĐỊA ĐIỂM</span>
+                    <p class="value">Quán Nhà Mợ 2</p>
+                    <p class="value-sub">49/2 Đường TL 41, An Phú Đông, Hồ Chí Minh, Việt Nam</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Nút xác nhận tham dự (RSVP) -->
+        <div class="actions">
+            <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn-rsvp">XÁC NHẬN THAM DỰ</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
